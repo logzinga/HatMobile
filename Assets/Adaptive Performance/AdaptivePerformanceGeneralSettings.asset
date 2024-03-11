@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Android Settings
   m_EditorClassIdentifier: Unity.AdaptivePerformance:UnityEngine.AdaptivePerformance:AdaptivePerformanceGeneralSettings
-  m_LoaderManagerInstance: {fileID: -4883413018519764639}
+  m_LoaderManagerInstance: {fileID: 8947775376257092024}
   m_InitManagerOnStart: 1
 --- !u!114 &-4883413018519764639
 MonoBehaviour:
@@ -77,3 +77,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -6885731384039349863}
   m_InitManagerOnStart: 1
+--- !u!114 &8947775376257092024
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Android Providers
+  m_EditorClassIdentifier: Unity.AdaptivePerformance:UnityEngine.AdaptivePerformance:AdaptivePerformanceManagerSettings
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: 0d4e53121d54b85e08d53893a0d3e6fe, type: 2}
+  - {fileID: 11400000, guid: eb233b02d51d73fadbe56c0ca616c01c, type: 2}
