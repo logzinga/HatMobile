@@ -25,6 +25,6 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        _playersRigidBody.velocity = new Vector2(_playersMovementDirection * PlayersMovementSpeed, _playersRigidBody.velocity.y);
+            _playersRigidBody.velocity = new Vector2(_playersMovementDirection * PlayersMovementSpeed, _playersRigidBody.velocity.y);
     }
 }
