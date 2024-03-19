@@ -8,11 +8,9 @@ public class GameManager : MonoBehaviour
 {
 
     public string ResetLevel;
-    public string NextLevel;
+    public string NextLevel = "MainMenu";
 
     public void EndGame() {
-        print("Quitting Game..");
-        Application.Quit();
         SceneManager.LoadScene(ResetLevel);
         print("Loading " + ResetLevel);
     }

@@ -13,7 +13,7 @@ public class PointyKill : MonoBehaviour
     void OnCollisionEnter2D (Collision2D collision2D) {
         if (collision2D.collider.tag == "Player") {
             print("Player Hit!");
-            gm.EndGame();
+            gm.LoadNextLevel();
         }
         if (collision2D.collider.tag == "Ground") {
             print("Ground Hit!");
